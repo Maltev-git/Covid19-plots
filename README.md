@@ -1,7 +1,10 @@
 
-2020-03-30 updated Malte Venzmer
+2020-03-31 updated by Malte Venzmer
 
 # Covid-19 prediction plots
+
+- [website](https://ecbo2000.net:17000/malte_site/covid19/covid19.html)
+- [GitHub](https://github.com/Maltev-git/Covid19-plots)
 
 The fit curves are based on the current data, i.e., they only are valid for an unchanged situation. 
 
