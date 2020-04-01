@@ -1,12 +1,12 @@
 
-2020-03-31 updated by Malte Venzmer
+2020-04-01 updated by Malte Venzmer
 
 # Covid-19 prediction plots
 
 - [website](https://ecbo2000.net:17000/malte_site/covid19/covid19.html)
 - [GitHub](https://github.com/Maltev-git/Covid19-plots)
 
-The fit curves are based on the current data, i.e., they only are valid for an unchanged situation. 
+The growth is no longer exponential in some regions but rather linear. It appears that the implemented measures decrease the infection rate. The fit curves are based on the current data, so they are estimates for an unchanged situation.
 
 Data source: 2019 Novel Coronavirus COVID-19 (2019-nCoV) [Data Repository](https://github.com/CSSEGISandData/COVID-19) by Johns Hopkins CSSE.
 
