@@ -1,12 +1,12 @@
 
-2020-04-01 updated by Malte Venzmer
+2020-04-02 updated by Malte Venzmer
 
 # Covid-19 prediction plots
 
 - [website](https://ecbo2000.net:17000/malte_site/covid19/covid19.html)
 - [GitHub](https://github.com/Maltev-git/Covid19-plots)
 
-The growth is no longer exponential in some regions but rather linear. It appears that the implemented measures decrease the infection rate. The fit curves are based on the current data, so they are estimates for an unchanged situation.
+The growth is no longer exponential in some regions but rather linear. It appears that the implemented measures decrease the infection rate. The fit curves are based on the current data, so they are estimates for an unchanged situation. **Update: Now, the current fit curves are based on data from the last two weeks.**
 
 Data source: 2019 Novel Coronavirus COVID-19 (2019-nCoV) [Data Repository](https://github.com/CSSEGISandData/COVID-19) by Johns Hopkins CSSE.
 
@@ -26,7 +26,7 @@ Source: [Government press conference (2020-03-11)](https://www.bundesregierung.d
 
 ### Prediction for Germany
 
-The median time between onset of symptoms and death is 8-12 days, according to sources cited in Wikipedia. A delay value of 10 days is used in these plots and a case fatality rate of 2.3 %.
+The median time between onset of symptoms and death is 8-12 days, according to sources cited in Wikipedia. **Update: In order to replicate the fatality counts more accurately, I reduced the death delay duration from 10 to now 8 days and increased the case fatality rate from 2.3 % to 3.0 %.**
 
 There are a total of 28.000 intensive care unit (ICU) beds in Germany, according to [Statistisches Bundesamt](https://www.destatis.de/DE/Presse/Pressemitteilungen/2020/03/PD20_N011_231.html).
 
@@ -40,3 +40,8 @@ There are 4814 ICU beds that are available within 1 day (as of 2020-03-20), acco
 
 <a href="plots/plot_covid19_timeseries_change_de.png" ><img src="plots/plot_covid19_timeseries_change_de.png" width="800" title="plots/plot_covid19_timeseries_change_de.png"></a>
 
+
+
+```python
+
+```
