@@ -1,5 +1,5 @@
 
-2020-04-06 updated by Malte Venzmer
+2020-04-08 updated by Malte Venzmer
 
 # Covid-19 prediction plots
 
@@ -10,7 +10,7 @@ The growth is no longer exponential in some regions but rather linear. It appear
 
 Data source: 2019 Novel Coronavirus COVID-19 (2019-nCoV) [Data Repository](https://github.com/CSSEGISandData/COVID-19) by Johns Hopkins CSSE.
 
-**Update 2020-04-06:** The [Priesemann research group](http://www.viola-priesemann.de/group/) from Göttingen Campus works on [COVID-19 forecast models](https://goettingen-campus.de/research/szenarien-covid-19) based on bayesian inference. They also analyze the impact that governmental policy changes have ([GitHub](https://github.com/Priesemann-Group/covid19_inference_forecast)).
+Update 2020-04-06: The [Priesemann research group](http://www.viola-priesemann.de/group/) from Göttingen Campus works on [COVID-19 forecast models](https://goettingen-campus.de/research/szenarien-covid-19) based on bayesian inference. They also analyze the impact that governmental policy changes have ([GitHub](https://github.com/Priesemann-Group/covid19_inference_forecast)).
 
 
 ### Case history
@@ -18,9 +18,11 @@ Data source: 2019 Novel Coronavirus COVID-19 (2019-nCoV) [Data Repository](https
 <a href="plots/plot_covid19_timeseries_history.png" ><img src="plots/plot_covid19_timeseries_history.png" width="800" title="plots/plot_covid19_timeseries_history.png"></a>
 
 
-### Logistic fit up to 60 % of region's population
+### Logistic and linear fit up to 60 % of region's population
 
-**Update 2020-04-06:** One infected person spreads it on average to 2-3 others, according to the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/covid-19/questions-answers).
+**Update 2020-04-08:** Added a linear fit curve, which fits better now for some regions.
+
+Update 2020-04-06: One infected person spreads it on average to 2-3 others, according to the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/covid-19/questions-answers).
 
 So let's say if 1.5 of 2.5 people (60%) have it already, the number of active cases stays constant.
 
@@ -33,7 +35,7 @@ The median time between onset of symptoms and death is 8-12 days, according to s
 
 Update 2020-04-02: In order to replicate the fatality counts more accurately, I reduced the death delay duration from 10 to now 8 days and increased the case fatality rate from 2.3 % to 3.0 %.
 
-**Update 2020-04-06:** There are a total of 23.420 intensive care unit (ICU) beds in Germany and thereof 10.064 are free, according to [DIVI-IntensivRegister Tagesreport 2020-04-04](https://www.divi.de/images/Dokumente/DIVI-IntensivRegister_Tagesreport_2020_04_04.pdf).
+Update 2020-04-06: There are a total of 23.420 intensive care unit (ICU) beds in Germany and thereof 10.064 are free, according to [DIVI-IntensivRegister Tagesreport 2020-04-04](https://www.divi.de/images/Dokumente/DIVI-IntensivRegister_Tagesreport_2020_04_04.pdf).
 
 
 <a href="plots/plot_covid19_timeseries_predictions_de.png" ><img src="plots/plot_covid19_timeseries_predictions_de.png" width="800" title="plots/plot_covid19_timeseries_predictions_de.png"></a>
