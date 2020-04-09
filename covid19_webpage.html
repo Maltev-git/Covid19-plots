@@ -13116,13 +13116,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>2020-04-08 updated by Malte Venzmer</p>
+<p>2020-04-09 updated by Malte Venzmer</p>
 <h1 id="Covid-19-prediction-plots">Covid-19 prediction plots<a class="anchor-link" href="#Covid-19-prediction-plots">&#182;</a></h1><ul>
 <li><a href="https://ecbo2000.net:17000/malte_site/covid19/covid19.html">website</a></li>
 <li><a href="https://github.com/Maltev-git/Covid19-plots">GitHub</a></li>
 </ul>
-<p>The growth is no longer exponential in some regions but rather linear. It appears that the implemented measures decrease the infection rate. The fit curves are based on the current data, so they are estimates for an unchanged situation. Update 2020-04-02: Now, the current fit curves are based on data from the last two weeks.</p>
 <p>Data source: 2019 Novel Coronavirus COVID-19 (2019-nCoV) <a href="https://github.com/CSSEGISandData/COVID-19">Data Repository</a> by Johns Hopkins CSSE.</p>
+<p>The growth is no longer exponential in some regions but rather linear. It appears that the implemented measures decrease the infection rate. The fit curves are based on the current data, so they are estimates for an unchanged situation.</p>
+<p>Update 2020-04-02: Now, the current fit curves are based on data from the last two weeks.</p>
 <p>Update 2020-04-06: The <a href="http://www.viola-priesemann.de/group/">Priesemann research group</a> from Göttingen Campus works on <a href="https://goettingen-campus.de/research/szenarien-covid-19">COVID-19 forecast models</a> based on bayesian inference. They also analyze the impact that governmental policy changes have (<a href="https://github.com/Priesemann-Group/covid19_inference_forecast">GitHub</a>).</p>
 
 </div>
@@ -13138,12 +13139,27 @@ div#notebook {
 <p><a href="plots/plot_covid19_timeseries_logistic_fit.png" ><img src="plots/plot_covid19_timeseries_logistic_fit.png" width="800" title="plots/plot_covid19_timeseries_logistic_fit.png"></a></p>
 <h3 id="Prediction-for-Germany">Prediction for Germany<a class="anchor-link" href="#Prediction-for-Germany">&#182;</a></h3><p>The median time between onset of symptoms and death is 8-12 days, according to sources cited in Wikipedia.</p>
 <p>Update 2020-04-02: In order to replicate the fatality counts more accurately, I reduced the death delay duration from 10 to now 8 days and increased the case fatality rate from 2.3 % to 3.0 %.</p>
-<p>Update 2020-04-06: There are a total of 23.420 intensive care unit (ICU) beds in Germany and thereof 10.064 are free, according to <a href="https://www.divi.de/images/Dokumente/DIVI-IntensivRegister_Tagesreport_2020_04_04.pdf">DIVI-IntensivRegister Tagesreport 2020-04-04</a>.</p>
+<p><strong>Update 2020-04-09:</strong> There are a total of 16.734 intensive care unit (ICU) beds in Germany and thereof 7039 are free, according to <a href="https://www.divi.de/images/Dokumente/DIVI-IntensivRegister_Tagesreport_2020_04_09.pdf">DIVI-IntensivRegister Tagesreport 2020-04-09</a>.</p>
 <p><a href="plots/plot_covid19_timeseries_predictions_de.png" ><img src="plots/plot_covid19_timeseries_predictions_de.png" width="800" title="plots/plot_covid19_timeseries_predictions_de.png"></a></p>
 <h3 id="Progress-of-flattening-the-curve-in-Germany">Progress of flattening the curve in Germany<a class="anchor-link" href="#Progress-of-flattening-the-curve-in-Germany">&#182;</a></h3><p><a href="plots/plot_covid19_timeseries_change_de.png" ><img src="plots/plot_covid19_timeseries_change_de.png" width="800" title="plots/plot_covid19_timeseries_change_de.png"></a></p>
+<h3 id="Estimated-actual-number-of-infections-in-Germany">Estimated actual number of infections in Germany<a class="anchor-link" href="#Estimated-actual-number-of-infections-in-Germany">&#182;</a></h3><p><strong>Update 2020-04-09:</strong> A new plot about the estimated actual number of infections in Germany. It is based on numbers derived in a report by <a href="https://www.uni-goettingen.de/en/606540.html">Vollmer &amp; Bommer (Uni Göttingen)</a>. They use the overall case fatality ratio (1.38 %) and the mean time from onset until death (17.8 days) from the recent study by <a href="https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20">Verity et al. (2020)</a>30243-7.pdf) in order to calculate the infection fatality rate and the case detection rate for individual countries. (Germany: case detection rate of 15.6 % and infection fatality rate of 1.3 %)</p>
+<p><a href="plots/plot_covid19_timeseries_estimated_infections_de.png" ><img src="plots/plot_covid19_timeseries_estimated_infections_de.png" width="800" title="plots/plot_covid19_timeseries_estimated_infections_de.png"></a></p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
