@@ -1,5 +1,5 @@
 
-2020-04-09 updated by Malte Venzmer
+2020-04-14 updated by Malte Venzmer
 
 # Covid-19 prediction plots
 
@@ -54,8 +54,3 @@ Update 2020-04-02: In order to replicate the fatality counts more accurately, I 
 
 <a href="plots/plot_covid19_timeseries_estimated_infections_de.png" ><img src="plots/plot_covid19_timeseries_estimated_infections_de.png" width="800" title="plots/plot_covid19_timeseries_estimated_infections_de.png"></a>
 
-
-
-```python
-
-```
