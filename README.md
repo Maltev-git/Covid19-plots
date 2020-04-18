@@ -1,5 +1,5 @@
 
-2020-04-14 updated by Malte Venzmer
+2020-04-18 updated by Malte Venzmer
 
 # Covid-19 prediction plots
 
@@ -22,7 +22,7 @@ Update 2020-04-06: The [Priesemann research group](http://www.viola-priesemann.d
 
 ### Logistic and linear fit up to 60 % of region's population
 
-**Update 2020-04-08:** Added a linear fit curve, which fits better now for some regions.
+Update 2020-04-08: Added a linear fit curve, which fits better now for some regions.
 
 Update 2020-04-06: One infected person spreads it on average to 2-3 others, according to the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/covid-19/questions-answers).
 
@@ -37,7 +37,7 @@ The median time between onset of symptoms and death is 8-12 days, according to s
 
 Update 2020-04-02: In order to replicate the fatality counts more accurately, I reduced the death delay duration from 10 to now 8 days and increased the case fatality rate from 2.3 % to 3.0 %.
 
-**Update 2020-04-09:** There are a total of 16.734 intensive care unit (ICU) beds in Germany and thereof 7039 are free, according to [DIVI-IntensivRegister Tagesreport 2020-04-09](https://www.divi.de/images/Dokumente/DIVI-IntensivRegister_Tagesreport_2020_04_09.pdf).
+Update 2020-04-09: There are a total of 16.734 intensive care unit (ICU) beds in Germany and thereof 7039 are free, according to [DIVI-IntensivRegister Tagesreport 2020-04-09](https://www.divi.de/images/Dokumente/DIVI-IntensivRegister_Tagesreport_2020_04_09.pdf).
 
 
 <a href="plots/plot_covid19_timeseries_predictions_de.png" ><img src="plots/plot_covid19_timeseries_predictions_de.png" width="800" title="plots/plot_covid19_timeseries_predictions_de.png"></a>
@@ -50,7 +50,7 @@ Update 2020-04-02: In order to replicate the fatality counts more accurately, I 
 
 ### Estimated actual number of infections in Germany
 
-**Update 2020-04-09:** A new plot about the estimated actual number of infections in Germany. It is based on numbers derived in a report by [Vollmer & Bommer (Uni Göttingen)](https://www.uni-goettingen.de/en/606540.html). They use the overall case fatality ratio (1.38 %) and the mean time from onset until death (17.8 days) from the recent study by [Verity et al. (2020)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30243-7.pdf) in order to calculate the infection fatality rate and the case detection rate for individual countries. (Germany: case detection rate of 15.6 % and infection fatality rate of 1.3 %)
+Update 2020-04-09: A new plot about the estimated actual number of infections in Germany. It is based on numbers derived in a report by [Vollmer & Bommer (Uni Göttingen)](https://www.uni-goettingen.de/en/606540.html). They use the overall case fatality ratio (1.38 %) and the mean time from onset until death (17.8 days) from the recent study by [Verity et al. (2020)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30243-7.pdf) in order to calculate the infection fatality rate and the case detection rate for individual countries. (Germany: case detection rate of 15.6 % and infection fatality rate of 1.3 %)
 
 <a href="plots/plot_covid19_timeseries_estimated_infections_de.png" ><img src="plots/plot_covid19_timeseries_estimated_infections_de.png" width="800" title="plots/plot_covid19_timeseries_estimated_infections_de.png"></a>
 
