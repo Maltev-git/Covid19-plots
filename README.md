@@ -1,5 +1,5 @@
 
-2020-04-18 updated by Malte Venzmer
+2020-04-23 updated by Malte Venzmer
 
 # Covid-19 prediction plots
 
