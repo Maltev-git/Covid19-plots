@@ -1,5 +1,5 @@
 
-2020-04-23 updated by Malte Venzmer
+2020-04-30 updated by Malte Venzmer
 
 # Covid-19 prediction plots
 
@@ -9,6 +9,8 @@
 Data source: 2019 Novel Coronavirus COVID-19 (2019-nCoV) [Data Repository](https://github.com/CSSEGISandData/COVID-19) by Johns Hopkins CSSE.
 
 The growth is no longer exponential in some regions but rather linear. It appears that the implemented measures decrease the infection rate. The fit curves are based on the current data, so they are estimates for an unchanged situation.
+
+**Note 2020-04-30:** The logistic fit curves approximate a situation of uncontrolled growth. The current situation is more or less under control.
 
 Update 2020-04-02: Now, the current fit curves are based on data from the last two weeks.
 
